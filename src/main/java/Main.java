@@ -6,7 +6,13 @@ public class Main {
     }
 
     public int[] intersect(int[] nums1, int[] nums2) {
+        HashMap<Integer, Integer> Array = new HashMap<>(); // Ключ = число, значения = количестов этого числа
+        for (int i = 0; i < 10; i++) {
+            Array.put(i, 0);
+        }
+
 
         return;
     }
 }
+

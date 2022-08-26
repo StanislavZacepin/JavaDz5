@@ -20,37 +20,48 @@ public class Main {
     }
 
     public static void Counts(HashMap<Integer, Integer> Array, int[] nums) {
+        int value = 0;
         for (int i : nums) {
             switch (i) {
                 case (0):
-                    Array.put(0, +1);
+                    value =  Array.get(i);
+                    Array.put(0, value+1);
                     break;
                 case (1):
-                    Array.put(1, +1);
+                    value =  Array.get(i);
+                    Array.put(1, value+1);
                     break;
                 case (2):
-                    Array.put(2, +1);
+                    value =  Array.get(i);
+                    Array.put(2, value+1);
                     break;
                 case (3):
-                    Array.put(3, +1);
+                    value =  Array.get(i);
+                    Array.put(3, value+1);
                     break;
                 case (4):
-                    Array.put(4, +1);
+                    value =  Array.get(i);
+                    Array.put(4, value+1);
                     break;
                 case (5):
-                    Array.put(5, +1);
+                    value =  Array.get(i);
+                    Array.put(5, value+1);
                     break;
                 case (6):
-                    Array.put(6, +1);
+                    value =  Array.get(i);
+                    Array.put(6, value+1);
                     break;
                 case (7):
-                    Array.put(7, +1);
+                    value =  Array.get(i);
+                    Array.put(7, value+1);
                     break;
                 case (8):
-                    Array.put(8, +1);
+                    value =  Array.get(i);
+                    Array.put(8, value+1);
                     break;
                 case (9):
-                    Array.put(9, +1);
+                    value =  Array.get(i);
+                    Array.put(9, value+1);
                     break;
 
             }
